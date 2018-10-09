@@ -1,0 +1,35 @@
+[<i class="fa fa-file-code-o fa-1x" aria-hidden="true"></i> Download this file as a template ](`r knitr::current_input()`).
+
+# Introduction to problem/question
+For my graduate degree project I am trying to determine the potential risk factor for a railroad disaster taking place in Erie County. Specifically a hazardous material spill. Something that I believe would be of use is a web app where a first responder could select a location and input the type of hazardous material. This would then place a buffer around the location identifying the zone that needs to be evacuated.
+
+# Problem / Question
+Clearly describe the problem/question you would like to address in a single sentence.
+For my project I would like to create an interactive web app where the user could select a location in Erie County, choose the hazardous material, and be notified of what type of steps first responders would need to take.
+
+# Inspiring Examples
+
+Include links and screenshots (or embedded images) of a few (~3-5) example graphics found on the internet that convey what you want to do.  Include a few sentences about why you selected each link.
+
+## Example 1
+https://opportunityatlas.org/
+file:///C:/Users/GungH/OneDrive/Documents/School/GEO 503 - Spatial Data Science/Classes/geo503-2018-JonathanMLynch/Project Proposal/Example 1 - Screenshot.JPG
+This link shows the potential to develop a nice visualization of your data.
+
+## Example 2
+https://datasociety.com/kitamba-the-opportunity-project/
+file:///C:/Users/GungH/OneDrive/Documents/School/GEO 503 - Spatial Data Science/Project/Example 2 - Screenshot.JPG
+This is a great example containing some of the interactivity that I would like to apply to my project. You can click on a location on the map and information pops up and a buffer is placed around the school you selected.
+## Example 3
+
+
+# Proposed data sources
+https://www.phmsa.dot.gov/hazmat/erg/erg-data-files - This site contains the spreadsheets that inform what steps should be taken for any hazardous material that should spill.
+Be as specific as possible.
+
+# Proposed methods
+
+List the approach you will use. Don't simply list packages, tell me what you will do with them.
+
+# Expected results
+When all is said and done, I expect to have a web app that is simple and user-friendly that allows a user to select a location and then input the relevant information (ie. size of spill and material). This would then create a labeled buffer around the location to show the user how far to evacuate the area.
