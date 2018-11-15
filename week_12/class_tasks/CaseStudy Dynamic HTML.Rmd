@@ -24,6 +24,7 @@ d$date=as.Date(d$date)
 Daily_Time <- xts(d$tmax, order.by = d$date)
 
 dygraph(Daily_Time, main = "Daily Maximum Temperature in Buffalo, NY")
-  
+
+#something is wrong with this part  
 dyRangeSelector(Daily_Time, dateWindow = c("2017-01-01", "2017-12-31"))
 ```
